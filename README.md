@@ -1,3 +1,20 @@
+# trustID fork
+## Install
+```
+npm install
+```
+## Build
+```
+npm run build
+```
+The lib will end up in dist/zxcvbn-light.js
+## Change size of built-in dictionnary
+Edit `data-scripts/build_frequeny_lists.py` to change `DICTIONARIES`
+Then run `python data-scripts/build_frequency_lists.py data src/frequency_lists.coffee`.
+Then build
+
+---
+
 ```
 _________________________________________________/\/\___________________
 _/\/\/\/\/\__/\/\__/\/\____/\/\/\/\__/\/\__/\/\__/\/\________/\/\/\/\___

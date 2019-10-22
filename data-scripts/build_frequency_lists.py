@@ -29,10 +29,10 @@ passed data dir, or vice-versa.
 
 # maps dict name to num words. None value means "include all words"
 DICTIONARIES = dict(
-    us_tv_and_film    = 30000,
-    english_wikipedia = 30000,
-    passwords         = 30000,
-    surnames          = 10000,
+    us_tv_and_film    = 6000,
+    english_wikipedia = 6000,
+    passwords         = 6000,
+    surnames          = 2000,
     male_names        = None,
     female_names      = None,
 )
